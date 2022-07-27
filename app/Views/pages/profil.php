@@ -19,10 +19,31 @@
 </a>
 <h5 style="text-align:center;">dr. Pitter Lumingkewas</h5><br>
 
+<br><br>
+<div class="container-fluid" style="width:1000px;">
+    <h3 style="text-align:center;">TUGAS DAN FUNGSI</h3>
+    <h5>PASAL 8</h5>
+    <h6>Dinas mempunyai tugas melaksanakan urusan pemerintahan daerah di bidang kesehatan di Daerah
+        berdasarkan asas otonomi dan tugas pembantuan.</h6>
+    <h5>PASAL 9</h5>
+    <h6>Dinas dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 8 menyelenggarakan fungsi meliputi :
+    </h6>
+    <p>a.
+        melakukan pelaksanaan, pembinaan kewenangan di bidang kesehatan yang ditetapkan Walikota di dalam sistem kesehatan Daerah secara terkoordinasi dengan instansi terkait;<br>
+        b.
+        penyusunan rencana dan pelaksanaan program pembangunan sesuai dengan Sistem Kesehatan Daerah;<br>
+        c.
+        mengembangkan Sistem Kesehatan Daerah dengan unsur-unsur bina upaya pelayanan kesehatan dan pengendalian masalah kesehatan, pengembangan sumber daya manusia kesehatan, jaminan pemeliharaan kesehatan dan pemberdayaan masyarakat di bidang kesehatan dan kesekretariatan; dan<br>
+        d.
+        melaksanakan standar pelayanan minimal bidang kesehatan.<br>
+    </p><br>
+</div>
+
 <div class="container-fluid" style="width:1000px; background-color:aquamarine;">
 
-    <br><br>
 
+
+    <br><br>
     <h4 style="text-align:center;"><b>VISI</b></h4>
     <p style="  text-align:center;  ">Terwujudnya Bitung Kota Digital yang
         Mandiri, Sejahtera dan Berkarakter
