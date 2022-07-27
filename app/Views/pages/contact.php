@@ -2,33 +2,6 @@
 
 <?= $this->section('content'); ?>
 
-<!-- <div class="container-fluid">
-    <table id="dtVerticalScrollExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-                <th class="th-sm">Nama Obat
-                </th>
-                <th class="th-sm">Tanggal Masuk
-                </th>
-                <th class="th-sm">Tanggal Expired
-                </th>
-
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Paracetamol</td>
-                <td>2 Agustus 2022</td>
-                <td>5 April 2024</td>
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-        </tbody>
-</div> -->
 <div class="container-fluid">
     <div class="table-responsive">
         <div class="row">
