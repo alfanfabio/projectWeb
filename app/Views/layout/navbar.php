@@ -11,10 +11,10 @@
             <div class="navbar-nav">
 
                 <a class="nav-link active" aria-current="page" href="<?= base_url('/'); ?>">Home</a>
-                <a class="nav-link" href="<?= base_url('/pages/about'); ?>">Daftar Obat</a>
-                <a class="nav-link" href="<?= base_url('/pages/contact'); ?>">Data Expire</a>
-                <a class="nav-link" href="<?= base_url('/komik'); ?>">Profil</a>
-                <a class="nav-link" href="#">Tentang Kami</a>
+                <a class="nav-link" href="<?= base_url('/pages/obat'); ?>">Daftar Obat</a>
+                <a class="nav-link" href="<?= base_url('/pages/expire'); ?>">Data Expire</a>
+                <a class="nav-link" href="<?= base_url('/pages/profil'); ?>">Profil</a>
+                <a class="nav-link" href="<?= base_url('/pages/tentang'); ?>">Tentang Kami</a>
 
             </div>
         </div>

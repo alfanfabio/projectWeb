@@ -36,9 +36,10 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Pages::index');
-$routes->get('/pages/about', 'Pages::about');
-$routes->get('/pages/contact', 'Pages::contact');
-$routes->get('/komik', 'komik');
+$routes->get('/pages/obat', 'Pages::obat');
+$routes->get('/pages/expire', 'Pages::expire');
+$routes->get('/pages/profil', 'Pages::profil');
+$routes->get('/pages/tentang', 'Pages::tentang');
 
 $routes->get('/komik/(:segment)', 'Komik::detail/$1');
 /*

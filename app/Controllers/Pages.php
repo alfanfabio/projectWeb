@@ -7,36 +7,41 @@ class Pages extends BaseController
     public function index()
     {
         $data = [
-            'title' => 'Home | WebProgramming'
+            'title' => 'Sistem Informasi Obat Bitung'
         ];
         return view('pages/home', $data);
     }
 
-    public function about()
+    public function obat()
     {
         $data = [
-            'title' => 'About me'
+            'title' => 'Daftar Obat'
         ];
-        return view('pages/about', $data);
+        return view('pages/obat', $data);
     }
 
-    public function contact()
+    public function profil()
     {
         $data = [
-            'title' => 'Contact Us',
-            'alamat' => [
-                [
-                    'tipe' => 'Rumah',
-                    'alamat' => 'Jl. Arnold Mononutu',
-                    'kota' => 'Minahasa Utara'
-                ],
-                [
-                    'tipe' => 'Kampus',
-                    'alamat' => 'Jl. Arnold Mononutu, Universitas Klabat',
-                    'kota' => 'Minahasa Utara'
-                ]
-            ]
+            'title' => 'Profil'
         ];
-        return view('pages/contact', $data);
+        return view('pages/profil', $data);
+    }
+
+    public function tentang()
+    {
+        $data = [
+            'title' => 'Tentang'
+        ];
+        return view('pages/tentang', $data);
+    }
+
+    public function expire()
+    {
+        $data = [
+            'title' => 'Data Expire',
+
+        ];
+        return view('pages/expire', $data);
     }
 }

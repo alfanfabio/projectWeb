@@ -9,14 +9,14 @@
         <div style="overflow-y: scroll;">
             <div class="row">
                 <div class="col">
-                    <h1 class="mt-2">Data Obat</h1>
-                    <table class="table table-bordered" id="myTable">
+                    <h1 class="mt-2">Daftar Expire</h1>
+                    <table class="table table-bordered center">
                         <thead>
-                            <tr class="header">
+                            <tr>
                                 <th scope="col">No.</th>
                                 <th scope="col">Nama Obat</th>
-                                <th scope="col">Jenis Obat</th>
-                                <th scope="col">Jumlah Obat</th>
+                                <th scope="col">Tanggal Masuk</th>
+                                <th scope="col">Tanggal Expired</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -25,14 +25,8 @@
                             <tr>
                                 <th scope="row"><?= $i++; ?></th>
                                 <td>Panadol</td>
-                                <td>Obat Biasa</td>
-                                <td>10 pack (isi 20)</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><?= $i++; ?></th>
-                                <td>Paracetamol</td>
-                                <td>Obat Biasa</td>
-                                <td>10 pack (isi 20)</td>
+                                <td>2 Agustus 2022</td>
+                                <td>4 April 2023</td>
                             </tr>
 
                         </tbody>
@@ -42,6 +36,4 @@
         </div>
     </div>
 </div>
-
-
 <?= $this->endSection(); ?>
