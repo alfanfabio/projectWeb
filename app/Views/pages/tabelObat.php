@@ -2,21 +2,34 @@
 
 <?= $this->section('content'); ?>
 
-<table id="dtVerticalScrollExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
-    <thead>
-        <tr>
-            <th class="th-sm">Name
-            </th>
-            <th class="th-sm">Position
-            </th>
-            <th class="th-sm">Office
-            </th>
-            <th class="th-sm">Age
-            </th>
-            <th class="th-sm">Start date
-            </th>
-            <th class="th-sm">Salary
-            </th>
-        </tr>
-    </thead>
-    <?= $this->endSection(); ?>
+<div class="container-fluid">
+    <div class="table-responsive">
+        <div class="row">
+            <div class="col">
+                <h1 class="mt-2">Data Obat</h1>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">No.</th>
+                            <th scope="col">Nama Obat</th>
+                            <th scope="col">Jenis Obat</th>
+                            <th scope="col">Jumlah Obat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php $i = 1 ?>
+
+                        <tr>
+                            <th scope="row"><?= $i++; ?></th>
+                            <td>Panadol</td>
+                            <td>Obat Biasa</td>
+                            <td>10 pack (isi 20)</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<?= $this->endSection(); ?>
